@@ -3,9 +3,6 @@ name = "poetry2nix-issue"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
-packages = [
-    { include = "foo", from = "src" },
-]
 
 [tool.poetry.dependencies]
 python = "^3.10"
